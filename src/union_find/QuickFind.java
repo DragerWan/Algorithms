@@ -16,7 +16,6 @@ public class QuickFind {
 		}
 	}
 	public boolean find(int a, int b){
-		System.out.printf("id[a] = %d, id[b] = %d", id[a], id[b]);
 		return id[a] == id[b];
 	}
 }
