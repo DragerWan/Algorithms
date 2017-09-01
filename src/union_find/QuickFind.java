@@ -4,7 +4,7 @@ public class QuickFind {
 	private int[] id;
 	public QuickFind(int n){
 		id = new int[n];
-		for(int i = 0; i < 1; i++)
+		for(int i = 0; i < n; i++)
 			id[i] = i;
 	}
 	public void union(int a, int b){
@@ -16,6 +16,7 @@ public class QuickFind {
 		}
 	}
 	public boolean find(int a, int b){
+		System.out.printf("id[a] = %d, id[b] = %d", id[a], id[b]);
 		return id[a] == id[b];
 	}
 }
