@@ -1,6 +1,6 @@
 package union_find;
 
-public class QuickFind {
+public class QuickFind implements UnionFind{
 	private int[] id;
 	public QuickFind(int n){
 		id = new int[n];
